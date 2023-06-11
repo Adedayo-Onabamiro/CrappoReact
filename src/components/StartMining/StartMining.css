@@ -1,0 +1,234 @@
+/* Start of StartMining Section */
+.StartMining{
+    min-height: 50vh;
+    height: 100%;
+    background-color: #2B076E;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.StartMiningContainer{
+height: 100%;
+width: 100%;
+align-items: center;
+display: flex;
+flex-direction: column;
+position: relative;
+}
+.StartMiningBox1{
+height: 50%;
+min-height: 50vh;
+background-color: #2B076E;
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.StartMiningBox2{
+    height: 50%;
+min-height: 50vh;
+    background-image: linear-gradient(to bottom, #2B076E 30%, #0D0D2B 70%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.middleContainer{
+border-radius: 20px;
+position: absolute;
+top: calc(50% - 1px);
+transform: translateY(-50%) !important;
+left: 10%;
+right: 0;
+width: 70%;
+padding: 2% 3%;
+height: 50%;
+min-height: 50vh;
+background-color: #3671E9;
+box-shadow: 0 0 5px black;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.middleContainer .left{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: start;
+}
+.middleContainer .left .a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    opacity: 70%;
+}
+.middleContainer .right{
+height: 100%;
+width: 60%;
+display: flex;
+flex-direction: row;
+justify-content:space-around ;
+align-items: center;
+border-radius: 20px;
+position: relative;
+}
+.middleContainer .right .input-field {
+    position: relative;
+    height: auto;
+    width: 70%;
+}
+.middleContainer .right .text-input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+}
+.middleContainer .right .text-input::placeholder{
+    color: white;
+}
+.middleContainer .right .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+.middleContainer .right .b{
+    position: absolute;
+    bottom: -20%;
+    object-fit: contain;
+    height: 70%;
+    width: 70%;
+    right: -30%;
+    opacity: 70%;
+}
+/* End of StartMining Section */
+
+@media screen and (max-width: 1011px) {
+        /* Start of StartMining Section */
+.middleContainer .left h1{
+font-size: 1.2rem;
+}
+.middleContainer .left p{
+font-size: .8rem;
+}
+.middleContainer .right .text-input {
+font-size: .8rem;
+}
+.middleContainer .right .underline {
+width: 80%;
+}
+}
+
+@media screen and (max-width: 771px) {
+      /* Start of StartMining Section */
+  .StartMining{
+    background-color: #2B076E;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .StartMiningContainer{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .StartMiningBox1{
+    height: 50%;
+    background-color: #2B076E;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .StartMiningBox2{
+    height: 50%;
+    background-image: linear-gradient(to bottom, #2B076E 30%, #0D0D2B 70%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .middleContainer{
+  border-radius: 20px;
+  position: absolute;
+  top: calc(50% - 1px);
+  transform: translateY(-50%);
+  left: 10%;
+  right: 0;
+  width: 70%;
+  padding: 2% 3%;
+  height: auto;
+  background-color: #3671E9;
+  box-shadow: 0 0 5px black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  }
+  .middleContainer .left{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: start;
+  }
+  .middleContainer .left .a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    opacity: 70%;
+  }
+  .middleContainer .right{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+  }
+  .middleContainer .right .input-field {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .middleContainer .right .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+  }
+  /* End of StartMining Section */
+}

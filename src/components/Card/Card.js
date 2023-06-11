@@ -1,4 +1,5 @@
 import React from 'react'
+import "../Card/Card.css";
 
 export const Card = (props) => {
     let image = props.image

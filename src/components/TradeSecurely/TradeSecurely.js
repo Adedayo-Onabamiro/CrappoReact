@@ -1,12 +1,27 @@
-import React from 'react'
-import { Card } from './Card'
+import React,{useState, useEffect}  from 'react'
+import { Card } from '../Card/Card'
+import "../TradeSecurely/TradeSecurely.css";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 export const TradeSecurely = () => {
+          // code for animation starts
+          useEffect(() => {
+            Aos.init({
+            // duration: 1000,
+            // once: true,
+            easing: "ease",
+            delay: "300",
+            mirror: true,
+            });
+        }, []);
+      // code for animation ends
   return (
     <>
         <section className='TradeSecurely'>
             <div className='TradeSecurelyContainer'>
-                <h1>Trade securely and market the high growth cryptocurrencies.</h1>
+                <h1 data-aos="zoom-in" data-aos-duration="2000">Trade securely and market the high growth cryptocurrencies.</h1>
                 <div className='CardContainer'>
                     <Card 
                         threecolor = "white"

@@ -1,0 +1,177 @@
+/* Start of CheckHowMuch Section */
+.CheckHowMuch{
+    min-height: 100vh;
+    height: 100%;
+    background-color: transparent;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .CheckHowMuchContainer{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .CheckHowMuchBox1{
+  height: 50%;
+  min-height: 50vh;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  }
+  .CheckHowMuchBox1 .textBox{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .CheckHowMuchBox1 h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .CheckHowMuchBox1 p{
+    color: #E0E0E0;
+    width: 70%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0;
+  }
+  .CheckHowMuchBox2{
+    height: 50%;
+    min-height: 50vh;
+    background-color: #fffffffe;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .RevenueCalculatorCard{
+    border-radius: 20px;
+    position: absolute;
+    top: calc(50% - 1px);
+    transform: translateY(-45%) !important;
+    left: 15%;
+    right: 0;
+    width: 60%;
+    padding: 0 5%;
+    height: 45%;
+    min-height: 45vh;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 1px black;
+  }
+  .RevenueCalculatorCard .top{
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .RevenueCalculatorCard .top .input-field {
+    position: relative;
+    height: auto;
+    width: 40%;
+  }
+  
+  .RevenueCalculatorCard .top .text-input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .RevenueCalculatorCard .top .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #E0E0E0;
+  }
+  
+  .RevenueCalculatorCard .bottom{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  /* End of CheckHowMuch Section */
+
+  @media screen and (max-width: 1011px) {
+      /* Start of CheckHowMuch Section */
+  .CheckHowMuch{
+    min-height: 100vh;
+    height: 100%;
+    }
+    .CheckHowMuchContainer{
+    min-height: 100vh;
+    height: 100%;
+    }
+    .CheckHowMuchBox1{
+    min-height: 50vh;
+    height: 50%;
+    }
+    .CheckHowMuchBox1 h3{
+    font-size: 1.4rem;
+    }
+    .CheckHowMuchBox1 p{
+    font-size: 1.2rem;
+    }
+    .CheckHowMuchBox2{
+    min-height: 50vh;
+    height: 50%;
+    }
+    /* End of CheckHowMuch Section */
+  }
+  @media screen and (max-width: 771px) {
+    .CheckHowMuchBox1 p{
+      color: #E0E0E0;
+      width: 100%;
+      text-align: center;
+      font-size: 1rem;
+    }
+    .RevenueCalculatorCard{
+      height: auto;
+      margin: 6% 0;
+    }
+    .RevenueCalculatorCard .top{
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      width: 100%;
+    }
+    .RevenueCalculatorCard .top .input-field {
+      position: relative;
+      height: auto;
+      width: 100%;
+      margin: 2% 0;
+    }
+    .RevenueCalculatorCard .top button{
+      font-size: .7rem;
+    }
+  }
+  @media screen and (max-width: 390px){
+    .CheckHowMuch{
+        height: 100%;
+        min-height: 100vh;
+      }
+      .CheckHowMuchBox1 p{
+        color: #E0E0E0;
+        width: 100%;
+        text-align: center;
+        font-size: .7rem;
+      }
+  }

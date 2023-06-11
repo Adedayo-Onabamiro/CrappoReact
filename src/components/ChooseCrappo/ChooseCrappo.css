@@ -1,0 +1,198 @@
+/* Start of ChooseCrappo Section */
+.ChooseCrappoContainer{
+  height: 100%;
+  min-height: 80vh;
+  background-color: transparent;
+  padding: 1% 5% ;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.ChooseCrappoBoxTop{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.StatBox{
+  height: 80%;
+  width: 100%;
+  max-width: 400px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.StatBox .left{
+  height: 100%;
+  width: 20%;
+  background-color: transparent;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.StatBox .left img{
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+.StatBox .right{
+  height: 100%;
+  width: 80%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.StatBox .right h3{
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin: 0;
+}
+.StatBox .right p{
+  color: #E0E0E0;
+  margin: 0;
+}
+.ChooseCrappoBoxBottom{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ChooseCrappoBox1{
+  height: 100%;
+  /* max-height: 500px; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent; 
+}
+.ChooseCrappoBox1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.ChooseCrappoBox2{
+  height: 100%;
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: transparent;
+}
+.ChooseCrappoBox2 .one{
+  padding: 5% 0;
+}
+.ChooseCrappoBox2 .one p{
+  font-size: 2.6rem;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+.ChooseCrappoBox2 .two{
+  padding: 2% 0;
+  width: 80%;
+}
+.ChooseCrappoBox2 .two p{
+  font-size: 1.1rem;
+  color: #E0E0E0;
+  margin: 0;
+}
+.ChooseCrappoBox2 .three{
+  padding: 2% 0;
+  width: 80%;
+}
+.ChooseCrappoBox2 .three button{
+  font-size: 1.2rem;
+  color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0% 5%;
+}
+/* End of ChooseCrappo Section */
+
+  @media screen and (max-width: 1011px) {
+        /* Start of ChooseCrappo Section */
+        .StatBox .right h3{
+            font-size: 1.2rem;
+        }
+        .StatBox .right p{
+            font-size: .8rem;
+        }
+        .ChooseCrappoBox2 .one p{
+            font-size: 2rem;
+        }
+        .ChooseCrappoBox2 .two p{
+            font-size: 1.1rem;
+        }
+        .ChooseCrappoBox2 .three button{
+            font-size: 1rem;
+        }
+        /* End of ChooseCrappo Section */
+  }
+  @media screen and (max-width: 771px) {
+    .ChooseCrappoBoxTop{
+      justify-content: start;
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+      width: 80%;
+    }
+    .StatBox{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 80%;
+      margin-bottom: 3%;
+    }
+    .StatBox .left, .StatBox .right {
+      width: auto;
+      margin: 0 5%;
+      display: flex;
+      justify-content: start;
+      align-items: start;
+    }
+    .ChooseCrappoBoxBottom{
+      flex-direction: column-reverse;
+      justify-content: start;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+      padding: 5% 0;
+    }
+    .ChooseCrappoBox2,.ChooseCrappoBox2 .one,.ChooseCrappoBox2 .two,.ChooseCrappoBox2 .three{
+      width: 90%;
+      height: fit-content;
+      padding: 1% 5%;
+      margin: 0;
+      justify-content: start;
+      align-items: start;
+    }
+    .ChooseCrappoBox2 .one p{
+      font-size: 1.4rem;
+    }
+  }
+
+  @media screen and (max-width: 390px){
+    .ChooseCrappoBox2 .two p{
+      font-size: .9rem;
+      font-weight: 100;
+    }
+    .ChooseCrappoBox2 .three button{
+      font-size: .8rem;
+      padding: 0% 5%;
+    }
+  }

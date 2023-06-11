@@ -1,0 +1,141 @@
+/* Start of FastestSecure Section */
+.FastestSecureContainer{
+    height: 100%;
+    min-height: 80vh;
+    background-color: transparent;
+    /* min-height: 700px; */
+    padding: 1% 5% ;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .FastestSecureContainer .a, .b{
+    position: absolute;
+    right: 0;
+    bottom: -20%;
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+  }
+  .FastestSecureBox1{
+    height: 100%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: transparent;
+  }
+  .FastestSecureBox1 .one{
+    height: fit-content;
+    width: fit-content;
+    padding-right: 3%;
+    background-color: #FFFFFF1A;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+  .FastestSecureBox1 .two{
+    padding: 5% 0;
+  }
+  .FastestSecureBox1 .two p{
+    font-size: 3.2rem;
+    color: white;
+    font-weight: 400 ;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .FastestSecureBox1 .three{
+    padding: 2% 0;
+    width: 80%;
+  }
+  .FastestSecureBox1 .three p{
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+  }
+  .FastestSecureBox1 .four{
+    padding: 2% 0;
+    width: 80%;
+  }
+  .FastestSecureBox1 .four button{
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 5%;
+  }
+  .FastestSecureBox2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; 
+  }
+  .FastestSecureBox2 img{
+    height: 85%;
+    width: 85%;
+    object-fit: contain;
+  }
+  /* End of FastestSecure Section */
+
+  @media screen and (max-width: 1011px) {
+        /* Start of FastestSecure Section */
+        .FastestSecureBox1 .one{
+            font-size: 1rem;
+          }
+          .FastestSecureBox1 .two p{
+            font-size: 2rem;
+          }
+          .FastestSecureBox1 .three p{
+            font-size: .9rem;
+          }
+          .FastestSecureBox1 .four button{
+            font-size: 1rem;
+          }
+          .FastestSecureContainer .a, .b{
+            right: 0;
+            bottom: 0%;
+            height: 60%;
+            width: 60%;
+          }
+          /* End of FastestSecure Section */
+  }
+
+  @media screen and (max-width: 771px) {
+    .FastestSecureContainer{
+        flex-direction: column;
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+      .FastestSecureBox1, .FastestSecureBox2{
+        width: 90%;
+      }
+      .FastestSecureBox2 img{
+        height: 70%;
+        width: 70%;
+      }
+  }
+  @media screen and (max-width: 390px){
+    .FastestSecureContainer{
+      width: 100%;
+      margin: 5% 0;
+      padding: 5%;
+    }
+    .FastestSecureBox1 .one{
+      font-size: .8rem;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }

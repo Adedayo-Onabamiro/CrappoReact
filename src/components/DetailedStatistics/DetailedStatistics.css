@@ -1,0 +1,74 @@
+/* Start of DetailedStatistics Section */
+.DetailedStatistics{
+    height: 100%;
+    min-height: 80vh;
+    background-color: #2B076E;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .DetailedStatisticsContainer{
+    height: 100%;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .DetailedStatisticsContainer .left{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    /* justify-content: center;
+    align-items: start; */
+  }
+  .DetailedStatisticsContainer .left img{
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+  }
+  .DetailedStatisticsContainer .right{
+    height: 40%;
+    width: 40%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: white;
+  }
+  /* End of DetailedStatistics Section */
+
+  @media screen and (max-width: 771px) {
+      /* Start of DetailedStatistics Section */
+  .DetailedStatisticsContainer{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .DetailedStatisticsContainer .left{
+    height: 80%;
+    width: 80%;
+    display: flex;
+  }
+  .DetailedStatisticsContainer .left img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .DetailedStatisticsContainer .right{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width:80%;
+    padding: 5% 0;
+    margin: 0;
+  }
+  /* End of DetailedStatistics Section */
+  }

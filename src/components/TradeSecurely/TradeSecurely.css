@@ -1,0 +1,63 @@
+/* Start of TradeSecurely Section */
+.TradeSecurely{
+height: 100%;
+min-height: 80vh;
+background-color: #fffffffe;
+width: 80%;
+padding: 0 10%;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+padding-bottom: 5%;
+}
+.TradeSecurelyContainer{
+height: 100%;
+width: 100%;
+align-items: center;
+display: flex;
+flex-direction: column;
+position: relative;
+}
+.TradeSecurelyContainer h1{
+font-size: 2rem;
+width: 80%;
+text-align: center;
+font-weight: 900;
+}
+.CardContainer{
+height: 80%;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+/* End of TradeSecurely Section */
+
+@media screen and (max-width: 1011px) {
+      /* Start of TradeSecurely Section */
+  .TradeSecurely{
+    height: 100%;
+    min-height: 80vh;
+    background-color: #FFFFFFFe;
+    width: 80%;
+    padding: 0 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+  }
+  .TradeSecurelyContainer h1{
+    font-size: 2rem;
+    width: 80%;
+    text-align: center;
+    font-weight: 900;
+  }
+  /* End of TradeSecurely Section */
+}
+@media screen and (max-width: 390px){
+    .TradeSecurelyContainer h1{
+        font-size: 1.3rem;
+      }
+}
