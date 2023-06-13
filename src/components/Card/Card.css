@@ -5,13 +5,13 @@
     border-radius: 20px;
     text-align: center;
     background-color: white;
-    transition: 1s ease;
+    /* transition: 1s ease; */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .Card:hover{
     background-color: #2B076E;
     color: white;
-    transition: 1s ease;
+    /* transition: 1s ease; */
 }
 .Card .one,.Card .two,.Card .three,.Card .four{
     height: 22%;

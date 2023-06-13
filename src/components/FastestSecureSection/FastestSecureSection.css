@@ -74,6 +74,9 @@
     justify-content: space-between;
     padding: 0% 5%;
   }
+  .FastestSecureBox1 .four .icon{
+    padding:0 5px;
+  }
   .FastestSecureBox2{
     height: 100%;
     width: 50%;
@@ -137,5 +140,15 @@
       width: 100%;
       margin: 0;
       padding: 0;
+      justify-content: space-around;
+    }
+  }
+  @media screen and (max-width: 350px){
+    .FastestSecureBox1 .one{
+      font-size: .7rem;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      justify-content: space-around;
     }
   }

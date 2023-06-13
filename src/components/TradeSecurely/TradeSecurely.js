@@ -3,14 +3,17 @@ import { Card } from '../Card/Card'
 import "../TradeSecurely/TradeSecurely.css";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
+import { CircleButton } from '../CircleButton';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 export const TradeSecurely = () => {
+        const hoveredButton = <button style={{display: "flex", justifyContent: "center", alignItems : "center", textAlign: "center"}}> <p> Start mining</p> <div> <FontAwesomeIcon style={{padding: "0 5"}} icon={faArrowRight} /> </div> </button>
+        const initialButton = <CircleButton />
+
           // code for animation starts
           useEffect(() => {
             Aos.init({
-            // duration: 1000,
-            // once: true,
             easing: "ease",
             delay: "300",
             mirror: true,
@@ -29,7 +32,7 @@ export const TradeSecurely = () => {
                         coinName = "Bitcoin"
                         coinAbbv = "BTC"
                         coinStory = "Digital currency in which a record of transactions is maintained."
-                        button = {<button> <p> Start mining</p> <div> ➡️ </div> </button>}
+                        button={{ initial: initialButton, hovered: hoveredButton }} 
                     ></Card>
                     <Card
                         threecolor = "black"
@@ -37,7 +40,7 @@ export const TradeSecurely = () => {
                         coinName = "Ethereum"
                         coinAbbv = "ETH"
                         coinStory = "Blockchain technology to create and run decentralized digital applications."
-                        button = {<button className='circleButton'>  <div> ➡️ </div> </button>}   
+                        button={{ initial: initialButton, hovered: hoveredButton }} 
                     ></Card>
                     <Card 
                         threecolor = "black"
@@ -45,7 +48,7 @@ export const TradeSecurely = () => {
                         coinName = "Litecoin"
                         coinAbbv = "LTC"
                         coinStory = "Cryptocurrency that enables instant payments to anyone in the world." 
-                        button = {<button className='circleButton'>  <div> ➡️ </div> </button>}  
+                        button={{ initial: initialButton, hovered: hoveredButton }} 
                     ></Card>
                 </div>
             </div>
